@@ -1,0 +1,19 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Mutation {
+  userRegister(name: String!, email: String!, password: String!): User!
+}
+
+type Query {
+  allUsers: [User!]!
+}
+
+type User {
+  id: Int
+  name: String!
+  email: String!
+  password: String
+  premium_access: Boolean!
+}
