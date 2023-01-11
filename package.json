@@ -32,7 +32,7 @@
     "await-to-js": "^2.1.1",
     "bcrypt": "^4.0.1",
     "class-transformer": "^0.2.3",
-    "class-validator": "^0.12.0-rc.0",
+    "class-validator": "^0.14.0",
     "crypto": "^1.0.1",
     "dataloader": "^2.0.0",
     "dotenv": "^8.2.0",
